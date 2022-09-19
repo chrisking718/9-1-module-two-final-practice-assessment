@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Mod 2 Practice Assessments</title>
+</head>
+
+<body>
+    <header>
+        <h1>Random People App</h1>
+        <img src="./assets/emojilaugh-emoji.gif" alt="Logo">
+    </header>
+
+    <main>
+        <!-- select person section -->
+        <section>
+            <h2>Select Person</h2>
+            <select id="people" onChange="addPeople()">
+                <option value=""></option>
+                
+            </select>
+            <hr>
+        </section>
+
+<!-- shoutout section -->
+        <section>
+            <h4>Add A Shoutout</h4>
+            <form>
+                <label for="shoutout">Your Shoutout</label>
+                <input id="shoutout" type="text">
+                <input type="submit">
+            </form>
+        </section>
+
+        <!-- info div -->
+        <section>
+            <div id="info">
+
+            </div>
+        </section>
+
+        <!-- shoutouts section with ul -->
+        <section>
+            <h2>Shoutouts</h2>
+            <ul></ul>
+            
+                
+            <input type="submit" value="Remove Shoutouts" id="reset-shoutouts">
+            
+        </section>
+    </main>
+</body>
+</html>
